@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ramaguru Radhakrishnan"
+title                    : "Blockchain - Research Interest Group"
 title_separator          : "-"
-name                     : &name "Ramaguru Radhakrishnan"
-description              : &description "Assistant Professor at Amrita Vishwa Vidyapeetham | Founder and Lead Researcher at நம்Chain® Open Initiative Research Lab"
+name                     : &name "B-RIG"
+description              : &description "Amrita Vishwa Vidyapeetham"
 url                      : https://ramagururadhakrishnan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -81,28 +81,28 @@ analytics:
 # Site Author
 author:
   name             : "Ramaguru Radhakrishnan"
-  avatar           : "Ramaguru_R.jpg"
-  bio              : "Assistant Professor at Amrita Vishwa Vidyapeetham | Founder and Lead Researcher at நம்Chain® Open Initiative Research Lab"
+  avatar           : "B-RIG.png"
+  bio              : "Amrita Vishwa Vidyapeetham"
   location         : "Coimbatore, India"
   employer         : "Amrita Vishwa Vidyapeetham"
-  home             : "https://amrita.edu/faculty/ramaguru-radhakrishnan/"
-  googlescholar    : "https://scholar.google.com/citations?user=-DjvKqgAAAAJ"
-  email            : #"ramaguru.90[at]gmail[dot]com"
-  researchgate     : "https://www.researchgate.net/profile/Ramaguru-Radhakrishnan"
-  bitbucket        : "ramagururadhakrishnan"
-  codepen          : "ramagururadhakrishnan"
+  home             : #"https://amrita.edu/faculty/ramaguru-radhakrishnan/"
+  googlescholar    : #"https://scholar.google.com/citations?user=-DjvKqgAAAAJ"
+  email            : "ramaguru.90[at]gmail[dot]com"
+  researchgate     : #"https://www.researchgate.net/profile/Ramaguru-Radhakrishnan"
+  bitbucket        : #"ramagururadhakrishnan"
+  codepen          : #"ramagururadhakrishnan"
   github           : "ramagururadhakrishnan"
-  growkudos        : "https://www.growkudos.com/profile/ramaguru_radhakrishnan"
-  keybase          : "ramagurur"
+  growkudos        : #"https://www.growkudos.com/profile/ramaguru_radhakrishnan"
+  keybase          : #"ramagurur"
   instagram        : #"ramagururadhakrishnan"
-  impactstory      : "https://profiles.impactstory.org/u/0000-0002-9508-5902"
+  impactstory      : #"https://profiles.impactstory.org/u/0000-0002-9508-5902"
   linkedin         : "ramaguru-radhakrishnan"
-  orcid            : "https://orcid.org/0000-0002-9508-5902"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57210210467"   
+  orcid            : #"https://orcid.org/0000-0002-9508-5902"
+  scopus           : #"https://www.scopus.com/authid/detail.uri?authorId=57210210467"   
   soundcloud       : #"ramaguru-radhakrishnan"
-  stackoverflow    : "17151586/ramaguru-radhakrishnan"
+  stackoverflow    : #"17151586/ramaguru-radhakrishnan"
   twitter          : #"Ramaguru"
-  xing             : "Ramaguru_Radhakrishnan"
+  xing             : #"Ramaguru_Radhakrishnan"
   youtube          : #"https://www.youtube.com/c/RamaguruRadhakrishnan/"
   wikipedia        :
 
@@ -161,13 +161,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -180,9 +174,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   certifications:
-    output: true
-    permalink: /:collection/:path/
-  startups:
     output: true
     permalink: /:collection/:path/
 
@@ -206,15 +197,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -248,15 +230,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-   # _startups
-  - scope:
-      path: ""
-      type: startups
-    values:
-      layout: single
-      author_profile: true
-      share: true  
+      share: true 
    # _projects
   - scope:
       path: ""
