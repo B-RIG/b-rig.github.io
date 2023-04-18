@@ -22,6 +22,11 @@ r_ramaguru[at]cb[dot]amrita[dot]edu</p>
 President <br/>
 +91 84385 41520 <br/>
 cb[dot]en[dot]u4cys21084[at]cb[dot]students[dot]amrita[dot]edu
+<br/>
+<p> <b>Mr. Manomithran G</b> <br/>
+Vice-President <br/>
++91 87008 48708 <br/>
+cb[dot]en[dot]u4cys21040[at]cb[dot]students[dot]amrita[dot]edu
 <br/> <br/>
 
 
